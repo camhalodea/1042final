@@ -2,157 +2,182 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<title>台灣原住民音樂</title>
 </head>
 <body>
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+	    <div class="container">
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+	            <ul class="nav navbar-nav">
+	                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+	                    <!-- <li class="hidden">
+	                        <a href="#page-top"></a>
+	                    </li> -->
+	                <li>
+	                    <a href="index.html">族群</a>
+	                </li>
+	                <li>
+	                    <a href="singer.html">音樂人</a>
+	                </li>
+	                <li>
+	                    <a>歌曲</a>
+	                </li>
+	            </ul>
+	        </div>
+	        <!-- /.navbar-collapse -->
+	    </div>
+	    <!-- /.container -->
+	</nav>
 	<header>
-		<div>台灣原住民音樂logo</div>
+		<div>台灣原住民音樂</div>
 
 	</header>
-	<main>
 	<article>
 		<div>
-			<div>
-				<div>banner photo
+			<div>banner photo
 					<div>
-						<h2>title introduction</h2>
+						<h3>台灣原住民音樂</h3>
 					</div>
-				</div>
 			</div>
 		</div>
-		<div>
+		<div class="container">
 			<div>
-				<div>
-					<img>
-					<a href="/amis">
-						<div>
-							<h2>阿美族</h2>
+				<ul><!--aboriginal group list-->
+				<li>
+					<a title="阿美族" href="abo_amis.html">
+						<img src="" alt="阿美族"><!--css排版四個一排-->
+						<div><!--增加能hover之後顯示字的class
+						可參考這裡http://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering
+						或是這個網站http://mikekus.com/-->
+							<h3>阿美族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/atayal">
+				</li>
+				<li>
+					<a title="泰雅族" href="abo_atayal.html">
+						<img src="" alt="泰雅族">
 						<div>
-							<h2>泰雅族</h2>
+							<h3>泰雅族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/bunun">
+				</li>
+				<li>
+					<a title="布農族" href="abo_bunun.html">
+						<img src="" alt="布農族">
 						<div>
-							<h2>布農族</h2>
+							<h3>布農族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/kevalan">
+				</li>
+				<li>
+					<a title="噶瑪蘭族" href="abo_kevalan.html">
+						<img src="" alt="噶瑪蘭族">
 						<div>
-							<h2>噶瑪蘭族</h2>
+							<h3>噶瑪蘭族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/paiwan">
+				</li>
+				<li>
+					<a title="排灣族" href="abo_paiwan.html">
+						<img src="" alt="排灣族">
 						<div>
-							<h2>排灣族</h2>
+							<h3>排灣族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/puyuma">
+				</li>
+				<li>
+					<a title="卑南族" href="abo_puyuma.html">
+						<img src="" alt="卑南族">
 						<div>
-							<h2>卑南族</h2>
+							<h3>卑南族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/rukai">
+				</li>
+				<li>
+					<a title="魯凱族" href="abo_rukai.html">
+						<img src="" alt="魯凱族">
 						<div>
-							<h2>魯凱族</h2>
+							<h3>魯凱族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/saisiyat">
+				</li>
+				<li>
+					<a title="賽夏族" href="abo_saisiyat.html">
+						<img src="" alt="賽夏族">
 						<div>
-							<h2>賽夏族</h2>
+							<h3>賽夏族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/sakizaya">
+				</li>
+				<li>
+					<a title="撒奇萊雅族" href="abo_sakizaya.html">
+						<img src="" alt="撒奇萊雅族">
 						<div>
-							<h2>撒奇萊雅族</h2>
+							<h3>撒奇萊雅族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/seediq">
+				</li>
+				<li>
+					<a title="賽德克族" href="abo_seediq.html">
+						<img src="image/test.png" alt="賽德克族" width="300" height="auto">
 						<div>
-							<h2>賽德克族</h2>
+							<h3>賽德克族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/tao">
+				</li>
+				<li>
+					<a title="達悟族" href="abo_tao.html">
+						<img src="" alt="達悟族">
 						<div>
-							<h2>達悟族</h2>
+							<h3>達悟族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/taroko">
+				</li>
+				<li>
+					<a title="太魯閣族" href="abo_taroko.html">
+						<img src="" alt="太魯閣族">
 						<div>
-							<h2>太魯閣族</h2>
+							<h3>太魯閣族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="/thao">
+				</li>
+				<li>
+					<a title="邵族" href="abo_thao.html">
+						<img src="" alt="邵族">
 						<div>
-							<h2>邵族</h2>
+							<h3>邵族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-				<div>
-					<img>
-					<a href="tsou">
+				</li>
+				<li>
+					<a title="鄒族" href="abo_tsou.html">
+						<img src="" alt="鄒族">
 						<div>
-							<h2>鄒族</h2>
+							<h3>鄒族</h3>
 							<p>View</p>
 						</div>
 					</a>
-				</div>
-
+				</li>
+				</ul>
 			</div>
 		</div>
 	</article>
-	</main>
 	<footer>
 
 	</footer>
